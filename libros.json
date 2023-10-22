@@ -1,0 +1,24 @@
+{
+    "products": [
+        {
+            "Name": "oats",
+            "Price": "30",
+            "Amount": "1"
+        },
+        {
+            "Name": "leche",
+            "Price": "2700",
+            "Amount": "2"
+        },
+        {
+            "Name": "Mermelada",
+            "Price": "12000",
+            "Amount": "3"
+        },
+        {
+            "Name": "amoung",
+            "Price": "302",
+            "Amount": "12"
+        }
+    ]
+}
