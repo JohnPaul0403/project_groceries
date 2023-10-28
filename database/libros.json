@@ -1,0 +1,41 @@
+{
+    "users" : [
+        {
+            "name" : "paul",
+            "email" : "emailfachero@email.com",
+            "password" : "password112",
+            "username" : "user_1", 
+            "items" : [
+                {
+                    "amount": "1",
+                    "name": "oats",
+                    "price": "30"
+                },
+                {
+                    "amount": "2",
+                    "name": "leche",
+                    "price": "2700"
+                },
+                {
+                    "amount": "3",
+                    "name": "Mermelada",
+                    "price": "12000"
+                },
+                {
+                    "amount": "12",
+                    "name": "amoung",
+                    "price": "302"
+                },
+                {
+                    "amount": "3",
+                    "name": "another store",
+                    "price": "2500"
+                },
+                {
+                    "total": 52554
+                }
+            ]
+        }
+    ]
+
+}

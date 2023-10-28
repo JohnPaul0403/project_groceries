@@ -1,24 +1,109 @@
 {
-    "products": [
+    "users": [
         {
-            "Name": "oats",
-            "Price": "30",
-            "Amount": "1"
+            "name": "paul",
+            "email": "emailfachero@email.com",
+            "password": "password112",
+            "username": "user_1",
+            "tokken": "QkhAeVVVRTcgSe",
+            "items": [
+                {
+                    "amount": "1",
+                    "name": "oats",
+                    "price": "30"
+                },
+                {
+                    "amount": "2",
+                    "name": "leche",
+                    "price": "2700"
+                },
+                {
+                    "amount": "3",
+                    "name": "Mermelada",
+                    "price": "12000"
+                },
+                {
+                    "amount": "12",
+                    "name": "amoung",
+                    "price": "302"
+                },
+                {
+                    "amount": "3",
+                    "name": "another store",
+                    "price": "2500"
+                },
+                {
+                    "name": "milky",
+                    "price": "2500",
+                    "amount": "3"
+                },
+                {
+                    "name": "cookie",
+                    "price": "2000",
+                    "amount": "1"
+                }
+            ]
         },
         {
-            "Name": "leche",
-            "Price": "2700",
-            "Amount": "2"
+            "name": "Luciano",
+            "email": "emailnofachero@gmail.com",
+            "username": "user_2",
+            "password": "password1102",
+            "tokken": null,
+            "items": [
+                {
+                    "name": "cookie",
+                    "price": "2000",
+                    "amount": "1"
+                },
+                {
+                    "name": "cookie",
+                    "price": "2000",
+                    "amount": "1"
+                }
+            ]
         },
         {
-            "Name": "Mermelada",
-            "Price": "12000",
-            "Amount": "3"
+            "name": "Luciano",
+            "email": "emailnofachero_2004@gmail.com",
+            "username": "user_230",
+            "password": "password1102",
+            "tokken": null,
+            "items": [
+                {
+                    "name": "cookie",
+                    "price": "2000",
+                    "amount": "1"
+                },
+                {
+                    "name": "cookies",
+                    "price": "3000",
+                    "amount": "203"
+                }
+            ]
         },
         {
-            "Name": "amoung",
-            "Price": "302",
-            "Amount": "12"
+            "name": "Luciano",
+            "email": "emailnofachero_2004@gmail.com",
+            "username": "lucho04",
+            "password": "password1102",
+            "items": []
+        },
+        {
+            "name": "John Paul Paredes",
+            "email": "johnpaul04@gmail.com",
+            "username": "johnpaul04",
+            "password": "password112",
+            "items": [],
+            "tokken": "SfsJPh17oTXXfK"
+        },
+        {
+            "name": "John Paul Paredes",
+            "email": "johnpaul04@gmail.com",
+            "username": "johnpaul2004",
+            "password": "password112",
+            "items": [],
+            "tokken": "FRXurNWrP8TBaq"
         }
     ]
 }
