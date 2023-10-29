@@ -85,6 +85,7 @@ class _LaunchPageState extends State<LaunchPage> {
 
   initApp() async {
     //Variable declaration
+    print("het");
     var resp = await getStatusService();
     print("hello");
     var token = Environment.userToken;

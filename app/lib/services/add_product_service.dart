@@ -1,20 +1,24 @@
 import 'dart:convert';
-import 'package:app/models/login_model.dart';
 import 'package:http/http.dart' as http;
 import 'package:app/global/enviroments.dart';
 
 final String _url = '${Environment.urlApp}';
-final String _endPoint = 'get_user_data';
+final String _endPoint = 'add_products';
 
-Future<dynamic> userDataService(
-  String token
+Future<dynamic> addProductService(
+  String name,
+  String price,
+  String amount
 ) async {
   var headers = {
     'Content-Type': 'application/json'
   };
   var request = http.Request('POST', Uri.parse('$_url$_endPoint'));
   request.body = json.encode({
-    "token" : token
+    "username": "user_1",
+    "name": name,
+    "price": price,
+    "amount": amount
   });
   request.headers.addAll(headers);
 
@@ -22,10 +26,11 @@ Future<dynamic> userDataService(
 
   if (response.statusCode == 200) {
     var resp = json.decode(await response.stream.bytesToString());
+    print(resp);
     if (resp['code'] == "00") {
       return {
         "status": true,
-        "resp": User.fromJson(resp["data"]),
+        "resp": resp["message"],
       };
     } else {
       return {

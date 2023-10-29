@@ -91,12 +91,12 @@ class Groceries:
                 user.products.append(products.Products(new_grocery["name"], new_grocery["price"], new_grocery["amount"]))
                 print("Producto agregado! ")
                 return {
-                    "code" : 00,
+                    "code" : "00",
                     "message": "Grocery added successfully"
                 }
         
         return {
-            "code" : 12,
+            "code" : "12",
             "message" : "There was a problem while trying to add the product"
         }
 

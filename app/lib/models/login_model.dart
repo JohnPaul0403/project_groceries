@@ -26,7 +26,7 @@ class User {
       items: items ?? [],
       name: json['name'] ?? "",
       password: json['password'] ?? "",
-      token: json['token'] ?? "",
+      token: json['tokken'] ?? "",
       username: json['username'] ?? "",
     );
   }

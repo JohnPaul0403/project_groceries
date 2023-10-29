@@ -4,9 +4,6 @@
 from groceries import Groceries, create_new_user
 from flask import Flask, request, jsonify
 
-#Global variable gro, wich will contain the object groceries
-gro = None
-
 def main() :
     app = Flask(__name__)
     gro = Groceries()
@@ -91,7 +88,7 @@ def main() :
         gro.store_products(new_product["username"], "libros.json")
         return jsonify(json_product)
 
-    app.run(host="118.128.222.142", port=8000, debug=True)
+    app.run(host="0.0.0.0", port=8000, debug=True)
 
 
 if __name__ == "__main__":

@@ -1,3 +1,4 @@
+import 'package:app/pages/add_grocery_page.dart';
 import 'package:app/pages/home_page.dart';
 import 'package:app/pages/launch_page.dart';
 import 'package:app/pages/login_page.dart';
@@ -14,5 +15,6 @@ Map<String, Widget Function(BuildContext context)> getApplicationRoutes() {
     "home_page" : (BuildContext context) => HomePage(),
     "page_404" : (BuildContext context) => Page404Page(),
     "signup_page" : (BuildContext context) => SignUpPage(),
+    "add_product_page" : (BuildContext context) => AddGroceryPage(),
   };
 }

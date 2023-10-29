@@ -15,16 +15,18 @@ Future<dynamic> getStatusService() async {
   });
   request.headers.addAll(headers);
 
-  late http.StreamedResponse response;
+  http.StreamedResponse response;
   try{
     response = await request.send();
-  }catch(e) {
+  } catch(e) {
+    print(e);
     return {
       "status": false,
       "resp": "Connection error",
       "message": 'System is not working'
     };
   }
+
   print(response.statusCode);
 
   if (response.statusCode == 200) {

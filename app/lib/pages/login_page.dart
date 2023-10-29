@@ -110,6 +110,7 @@ class _LoginPageState extends State<LoginPage> {
       dynamic res = await loginService(username!.text, password!.text);
       if (res["status"] == true) {
         User user = res["resp"];
+        print(user.token);
         Environment.userToken = user.token ?? "token";
         setState(() {
           isLoading = false;

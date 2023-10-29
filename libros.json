@@ -5,7 +5,7 @@
             "email": "emailfachero@email.com",
             "password": "password112",
             "username": "user_1",
-            "tokken": "QkhAeVVVRTcgSe",
+            "tokken": "InaKwQPwUWoB5m",
             "items": [
                 {
                     "amount": "1",
@@ -41,6 +41,31 @@
                     "name": "cookie",
                     "price": "2000",
                     "amount": "1"
+                },
+                {
+                    "name": "cookies",
+                    "price": "3000",
+                    "amount": "203"
+                },
+                {
+                    "name": "cookies",
+                    "price": "3000",
+                    "amount": "203"
+                },
+                {
+                    "name": "oreo",
+                    "price": "2000",
+                    "amount": "2"
+                },
+                {
+                    "name": "oreo crunchy",
+                    "price": "2000",
+                    "amount": "2"
+                },
+                {
+                    "name": "oreo creamy",
+                    "price": "2000",
+                    "amount": "2"
                 }
             ]
         },
@@ -95,7 +120,7 @@
             "username": "johnpaul04",
             "password": "password112",
             "items": [],
-            "tokken": "SfsJPh17oTXXfK"
+            "tokken": "RlvmmJR63wuUHh"
         },
         {
             "name": "John Paul Paredes",

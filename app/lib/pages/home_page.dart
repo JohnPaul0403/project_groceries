@@ -1,4 +1,5 @@
 import 'package:app/helpers/app_colors.dart';
+import 'package:app/pages/add_grocery_page.dart';
 import 'package:app/pages/groceries_page.dart';
 import 'package:app/pages/settings_page.dart';
 import 'package:flutter/cupertino.dart';
@@ -14,8 +15,9 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
-  static List<Widget> _widgetOptions = <Widget>[
+  final List<Widget> _widgetOptions = <Widget>[
     GroceriesPage(),
+    AddGroceryPage(),
     SettingsPage(),
   ];
   int _selectedIndex = 0;
@@ -32,6 +34,18 @@ class _HomePageState extends State<HomePage> {
         activeIcon: Icon(
           Icons.home,
           size: utils.SizeConfig.blockSizeVertical * 3,
+        ),
+      ),
+      BottomNavigationBarItem(
+        icon: Icon(
+          Icons.add_circle_outline,
+          size: utils.SizeConfig.blockSizeVertical * 4,
+          color: MyColors.gray,
+        ),
+        label: "",
+        activeIcon: Icon(
+          Icons.add_circle,
+          size: utils.SizeConfig.blockSizeVertical * 4,
         ),
       ),
       BottomNavigationBarItem(
