@@ -5,7 +5,7 @@
             "email": "emailfachero@email.com",
             "password": "password112",
             "username": "user_1",
-            "tokken": "InaKwQPwUWoB5m",
+            "tokken": "zHvUiqrJJKBcaj",
             "items": [
                 {
                     "amount": "1",
@@ -66,6 +66,11 @@
                     "name": "oreo creamy",
                     "price": "2000",
                     "amount": "2"
+                },
+                {
+                    "name": "your nuts",
+                    "price": "3445",
+                    "amount": "5"
                 }
             ]
         },

@@ -1,3 +1,4 @@
+import 'package:app/pages/page_404.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:app/routes/routes.dart' as routes;

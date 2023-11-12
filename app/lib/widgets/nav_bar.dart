@@ -18,3 +18,15 @@ navBar(String text){
     backgroundColor: MyColors.white,
   );
 }
+
+secondaryNavBar(String name) {
+  return CupertinoNavigationBar(
+    middle: Text(
+      name,
+      style: TextStyle(
+        color: MyColors.black,
+      ),
+    ),
+    backgroundColor: MyColors.white,
+  );
+}
